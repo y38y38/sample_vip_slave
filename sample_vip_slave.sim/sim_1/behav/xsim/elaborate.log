@@ -1,0 +1,31 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 504a5848ca8c4c48b7eb0f54adeae756 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_7 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_awuser' [/home/y/project/sample_vip_slave/sample_vip_slave.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:229]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_wuser' [/home/y/project/sample_vip_slave/sample_vip_slave.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:235]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_buser' [/home/y/project/sample_vip_slave/sample_vip_slave.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:240]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_aruser' [/home/y/project/sample_vip_slave/sample_vip_slave.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:252]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_ruser' [/home/y/project/sample_vip_slave/sample_vip_slave.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:259]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_WID_WIDTH=1,C_A...
+Compiling module axi_vip_v1_1_7.axi_vip_v1_1_7_top(C_AXI_INTERFA...
+Compiling module xil_defaultlib.design_1_axi_vip_0_0
+Compiling module xil_defaultlib.myip_v1_0_M00_AXI_default
+Compiling module xil_defaultlib.myip_v1_0
+Compiling module xil_defaultlib.design_1_myip_v1_0_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

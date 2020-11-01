@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5545349fs"></ZoomEndTime>
+      <Cursor1Time time="3368000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="305"></NameColumnWidth>
+      <ValueColumnWidth column_width="149"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/tb/INIT">
+      <obj_property name="ElementShortName">INIT</obj_property>
+      <obj_property name="ObjectShortName">INIT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/RESET">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/LP_CLK_PERI">
+      <obj_property name="ElementShortName">LP_CLK_PERI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LP_CLK_PERI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/LP_RST_PERI">
+      <obj_property name="ElementShortName">LP_RST_PERI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LP_RST_PERI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_AWVALID">
+      <obj_property name="ElementShortName">M_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_AWREADY">
+      <obj_property name="ElementShortName">M_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_WLAST">
+      <obj_property name="ElementShortName">M_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_WVALID">
+      <obj_property name="ElementShortName">M_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_WREADY">
+      <obj_property name="ElementShortName">M_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_BVALID">
+      <obj_property name="ElementShortName">M_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_BREADY">
+      <obj_property name="ElementShortName">M_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_ARVALID">
+      <obj_property name="ElementShortName">M_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_ARREADY">
+      <obj_property name="ElementShortName">M_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_RVALID">
+      <obj_property name="ElementShortName">M_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_RREADY">
+      <obj_property name="ElementShortName">M_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/dut/design_1_i/myip_v1_0_0/inst/myip_v1_0_M00_AXI_inst/M_AXI_RLAST">
+      <obj_property name="ElementShortName">M_AXI_RLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RLAST</obj_property>
+   </wvobject>
+</wave_config>
